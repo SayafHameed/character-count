@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+width:100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 3px solid;
+background: hsla(283, 100%, 80%, 2);
+}
+.title{
+    margin-bottom: 20px;
+    color:#251b3a;
+}
+#textbox{
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+#charcount{
+    font-size: 20px;
+    color: cadetblue;
+    font-weight: bold;
+}
